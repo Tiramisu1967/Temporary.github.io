@@ -5,6 +5,10 @@
     border-bottom: 1px solid white;
 }
 
+body{
+  min-width: auto;
+}
+
 
 /*
   border: 6px solid royalblue;
