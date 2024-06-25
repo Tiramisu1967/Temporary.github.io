@@ -1,3 +1,7 @@
+body{
+  margin: 0%;
+  cursor: url('/image/cursor/VIIchan.png'), auto;
+}
 .header {
     height: 50px;
     display: flex;
@@ -119,10 +123,10 @@ th, td {
 #maomao:active {background-position: 60px 50%;}
 
 .outer {
+  overflow-x: hidden;
     width: 1243px;
     height: auto;
     margin: 0 auto;
-    overflow-x: hidden;
   }
   
   .inner {

@@ -13,37 +13,6 @@
         <img src="image/Icon/동방/reimu.png" alt="위로 가기" /></a>
     </div>
     
-    <div id="maomao" onclick="playSound(), duoMaomao()"></div>
-    <audio id="ruready" src="/Audio/냥파스.ogg" preload="auto" onloadstart="this.volume=0.1"></audio>
-    <script>
-        jQuery(function($) {
-            var images = [
-                './images/maste.webp',
-                './images/이미지주소',
-                './images/이미지주소'
-            ];
-        
-            var randomImage = images[Math.floor(Math.random() * images.length)];
-        
-            $('#BackToTop img').attr('src', randomImage);
-        
-            $('#BackToTop').click(function(e) {
-                e.preventDefault();
-                $('html, body').animate({ scrollTop: 0 }, '500');
-            });
-        });
-
-        function duoMaomao() {
-           var maomao = document.getElementById('maomao');
-           maomao.style.bottom = Math.floor(Math.random() * 76) + 5 + 'vh';
-        }
-
-         function playSound() {
-            var audio = document.getElementById('ruready');
-            audio.currentTime = 0;
-            audio.play();
-        }
-        </script>
 </head>
 <body bgcolor="black">
     <div class="header">

@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Pink and blue star normal.cur
+
+[Hand]
+Path=Pink and blue star link.ani
+
+[Wait]
+Path=Pink and blue star busy.ani
+
+[AppStarting]
+Path=Pink and blue star background.ani
+
+[UpArrow]
+Path=Pink and blue star alternate.cur
+
+[SizeNWSE]
+Path=Pink and blue star diagonal 1.cur
+
+[SizeNESW]
+Path=Pink and blue star diagonal 2.cur
+
+[NWPen]
+Path=Pink and blue star handwriting.ani
+
+[Help]
+Path=Pink and blue star help.cur
+
+[SizeWE]
+Path=Pink and blue star horizontal.cur
+
+[SizeAll]
+Path=Pink and blue star move.cur
+
+[Crosshair]
+Path=Pink and blue star precision.cur
+
+[IBeam]
+Path=Pink and blue star text.cur
+
+[No]
+Path=Pink and blue star unavailable.ani
+
+[SizeNS]
+Path=Pink and blue star vertical.cur
+
