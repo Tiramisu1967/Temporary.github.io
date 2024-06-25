@@ -1,6 +1,6 @@
 body{
   margin: 0%;
-  cursor: url('/image/cursor/pinkandbluestars/Pink\ and\ blue\ star\ normal.cur'), auto;
+  cursor: url('../image/cursor/pinkandbluestars/Pink\ and\ blue\ star\ normal.cur'), auto;
 }
 .header {
     height: 50px;
