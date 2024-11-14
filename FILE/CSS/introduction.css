@@ -1,0 +1,80 @@
+.introduction{
+    width: 100%;
+    height: 50vh;
+}
+
+.school{
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-content: center;
+    box-shadow: inset 0px 0px 15px rgb(152, 240, 255);
+    /* box-shadow: 0px 0px 10px #000; */
+}
+
+
+@media (max-width: 900px) {
+    
+    .schoolbox{
+        width: 50%;
+        justify-items: center;
+        height: 70%;
+    }
+
+    .schoolbox>div{
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .schoolbox img{
+        width: 100%;
+        height: auto;
+    }
+    .schoolbox p{
+        line-height: 3;
+        text-align: center;
+        font-size: 13px;
+    }
+    .schoolbox p::after {
+        content: '오랜 시간 발전한 IT 기술\A 지식과 실무를 익히는 커리큘럼\A 마음껏 도전하는 대회와 인턴십 기회';
+        white-space: pre; /* This allows the line breaks to be displayed */
+    }
+    
+}
+
+@media (min-width: 901px) {
+    .schoolbox{
+        width: 100%;
+        justify-items: center;
+        align-content: center;
+        height: 70%;
+    }
+    
+    .schoolbox>div{
+        width: 50%;
+        height: 50%;
+        float: left;
+        justify-items: center;
+    }
+    .schoolbox>div>div{
+        height: 100%;
+        width: 1px;
+    
+    }
+    .schoolbox img{
+        margin: auto;
+        height: 100%;
+        width: auto;
+    }
+    .schoolbox .i{
+        line-height: 3;
+        width: 49%;
+        float: right;
+    }
+    .schoolbox p::after {
+        content: '경민IT고등학교는 1999년에 설립된 사립 고등학교로,\A IT(정보기술) 분야 전문 교육을 제공합니다.\A 전자, 컴퓨터, 네트워크, 프로그래밍 등의 과목을 중심으로\A 실무 교육을 진행하며,\A 기업과의 협력을 통해 실습과 취업 기회를 제공합니다.';
+        white-space: pre; /* 줄 바꿈을 적용하려면 white-space 속성 추가 */
+    }
+    
+    
+}

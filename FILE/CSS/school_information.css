@@ -1,0 +1,108 @@
+
+/* 이력서 섹션 스타일 */
+
+@media (max-width: 800px) {
+    .resume {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.resume {
+    width: 90%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume a{
+    font-size: 15px;
+}
+
+.resume h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.resume h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    color: #4CAF50;
+}
+
+.resume h3 {
+    font-size: 1.3em;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* 목록 스타일 */
+.resume ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* 링크 스타일 */
+.resume a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
+
+/* 프로젝트 섹션 스타일 */
+.resume div {
+    margin-bottom: 15px;
+}
+
+.resume p {
+    margin: 5px 0;
+}
+
+/* 프로젝트 링크 스타일 */
+.resume a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+
+    .resume h1 {
+        font-size: 1.8em;
+    }
+
+    .resume h2 {
+        font-size: 1.3em;
+    }
+
+    .resume h3 {
+        font-size: 1.1em;
+    }
+}
